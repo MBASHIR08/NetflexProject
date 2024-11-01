@@ -1,11 +1,11 @@
-/* Footer Styles /
+/* Footer Styles  */
 footer {
   margin-top: 5%;
   background-color: #1a1a1a;
   padding: 3rem 0;
 }
 .footer-container {
-  / max-width: 1200px; /
+   /* max-width: 1200px;  */
   margin: 0 auto;
   padding: 0 5%
 }
@@ -37,7 +37,7 @@ footer {
   }
 }
 
-/ Footer Section /
+/* Footer Section  */
 h3,
 h4 {
   font-weight: 600;
@@ -67,7 +67,7 @@ a:hover {
   color: #ffffff;
 }
 
-/ Social Media Icons /
+/* Social Media Icons  */
 .social-icons {
   display: flex;
   gap: 1rem;
@@ -78,7 +78,7 @@ a:hover {
   cursor: pointer;
 }
 
-/ Newsletter Input and Button /
+/* Newsletter Input and Button  */
 .newsletter {
   margin-top: 1rem;
 }
@@ -109,7 +109,7 @@ button:hover {
   margin-left: 0.5rem;
 }
 
-/ Footer Bottom */
+ /* Footer Bottom  */
 .footer-bottom {
     margin-top: 2rem;
     padding-top: 2rem;
@@ -124,4 +124,4 @@ button:hover {
   }
   .footer-flex button {
     flex: 2;
-  }
+  } 

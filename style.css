@@ -19,6 +19,15 @@ body {
 text-align: center;
 }
 
+.text{
+  max-width: 50%;
+}
+
+image {
+  max-width: 600px;
+  border-radius: 10px;
+}
+
 .overlay{
   position: absolute;
   top: 0;
@@ -27,6 +36,8 @@ text-align: center;
   right: 0;
   background: linear-gradient(to bottom, transparent, black);
 }
+
+
 
 .hero-image{
   width: 100%;
@@ -119,7 +130,7 @@ font-size: 1.5rem;
 
   
 @media (max-width: 768px) {
-  .content-item .content-item.reverse{
+  .content-item, .content-item.reverse{
     flex-direction: column;
     gap: 20px;
   }
